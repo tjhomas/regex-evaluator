@@ -1,0 +1,160 @@
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  word-wrap: break-word;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+h3 {
+  color: #1a3c5c;
+  font-size: 1.3em;
+}
+h3:first-letter,
+#heading:first-letter {
+  font-size: 1.4em;
+}
+a:link,
+a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  float: right;
+}
+input,
+textarea {
+  background-color: #fff;
+  width: 94%;
+  border: 0px solid #1a3c5c;
+  padding: 3%;
+}
+table,
+tr,
+td {
+  border-spacing: 0;
+}
+td {
+  padding: 0 7px;
+  vertical-align: text-top;
+  word-break: break-all;
+}
+::selection {
+  background: #91ff66; /* Safari */
+}
+::-moz-selection {
+  background: #91ff66; /* Firefox */
+}
+#container {
+  margin: 0 auto;
+  background-color: #c6c6c6;
+  width: 750px;
+  height: 100%;
+  display: table;
+  position: relative;
+}
+#heading {
+  top: 0;
+  color: #fff;
+  font-size: 2.2em;
+  background-color: #2a2b2b;
+  line-height: 100px;
+  text-align: center;
+  border-bottom: 4px solid #fff;
+  height: 100px;
+  vertical-align: middle;
+  font-weight: bold;
+}
+#regExResults {
+  padding: 5% 5% 5% 2px;
+  width: 90%;
+  overflow: hidden;
+  font-weight: normal;
+  color: #bebebe;
+  background-color: #000;
+  line-height: 1.6em;
+  font-size: 1.3em;
+  text-transform: none;
+}
+#textInput {
+  height: 300px;
+}
+.itemleft,
+.itemright {
+  padding: 0 0 0 5%;
+  width: 36%;
+  float: left;
+}
+.itemright {
+  padding: 0 0 0 5%;
+  width: 50%;
+  float: left;
+}
+.lineCount {
+  background-color: #2a2b2b;
+  color: #fff;
+  border-color: #434343 #000;
+  font-size: 0.8em;
+  padding: 0 5px;
+  margin: 0 0 0 10px;
+  white-space: nowrap;
+}
+.checkboxes {
+  width: 20px;
+}
+.highlight {
+  color: #91ff66;
+  border: 1px solid #91ff66;
+  margin: 4px;
+  padding: 1px 4px;
+}
+.warning {
+  color: #96222e;
+}
+.clear {
+  clear: both;
+}
+.fl {
+  display: inline-block;
+  margin: 15px;
+  vertical-align: top;
+  text-align: left;
+}
+#hints {
+  display: none;
+  background-color: #000;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  text-transform: none;
+  border-bottom: 5px solid #fff;
+  font-size: 12px;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+.rgroup {
+  text-align: center;
+  background-color: #2a2b2b;
+  font-size: 14px;
+  display: block;
+  padding: 3px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+.button {
+  background-color: #1a3c5c;
+  color: #fff;
+  border: 3px solid #fff;
+  font-size: 1.3em;
+  text-transform: none;
+  padding: 7px;
+  border-radius: 8px;
+}
+.activeButton {
+  background-color: #000;
+}

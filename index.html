@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+	<title>Regular Expression Evaluator</title>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	</div>
+	<div id="container">
+		<div id="heading">
+			<span id="headingSpan">regular expression evaluator</span>
+			<img src="regexers.jpg">
+		</div>
+		<div id="hints">
+		  <div class="fl">
+		  <p>
+		  <span class="rgroup">Characters to Escape</span>
+		  .^$*+?()[{\|<br />
+		  </p>
+		  <p>
+		  <span class="rgroup">Anchors</span>
+		  ^ line start<br />
+		  $ line end<br />
+		  \b whole words<br />
+		  </p>
+		  </div>
+		  <div class="fl">
+		  <p>
+		  <span class="rgroup">Match times</span><
+		  * 0 or more<br />
+		  + 1 or more<br />
+		  ? 0 or 1<br />
+		  {N} exactly N<br />
+		  {N,} N more more<br />
+		  {N1,N2} N1 to N2<br />
+		  *? +? not greedy<br />
+		  </p>
+		  </div>
+		  <div class="fl">
+		  <p>
+		  <span class="rgroup">Shortcuts</span>
+		  \t tab<br />
+		  \n newline<br />
+		  \w [a-zA-Z0-9_]<br />
+		  \W non-word<br />
+		  \d digit<br />
+		  \D non-digit<br />
+		  \s whitespace<br />
+		  \S non-whitespace<br />
+		  </p>
+		  </div>
+		  <div class="fl">
+		  <p>
+		  <span class="rgroup">"OR" Grouping</span>
+		  (a|b)<br />
+		  </p>
+		  <p>
+		  <p>
+		  <span class="rgroup">Character Classes</span>
+		  [abc] a, b, or c<br />
+		  [^abc] not a, b, or c<br />
+		  [a-zA-Z] a to z, A to Z<br />
+		  ^-]\ need escaped<br />
+		  </p>
+		</div>
+		<div class="clear"></div>
+		</div>
+			<div style="float:right">
+			  <a href="#"><span class="button" id="hintsButton">Cheat Sheet</span></a>
+			  <a href="#"><span class="button" id="examplesButton">Example</span></a>
+			  <a href="https://en.wikipedia.org/wiki/Regular_expression" target="_blank"><span class="button">Learn More</span></a>
+			&nbsp;
+			</div>
+		<div class="clear"></div>
+		<div class="itemleft">
+			<h3 id="labelText">enter text</h3>
+			<textarea id="textInput" spellcheck="false"></textarea>
+			<h3 id="labelRegEx">enter regex</h3>
+			<input id="textPattern" type="text" spellcheck="false" />
+			<p><input type="checkbox" id="checkGlobal" class="checkboxes" value="on">Global <input type="checkbox" id="checkIC" class="checkboxes" value="on">Case-Insensitive</p>
+		</div>
+		<div class="itemright">
+			<h3>Results</h3>
+			<div id="regExResults">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
